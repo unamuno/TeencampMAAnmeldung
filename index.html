@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Mitarbeiteranmeldung ❤️</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
+</head>
+<body>
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div class="container">
+    <div class="row">
+    	<div class="one-half column">
+        	<h2>Mitarbeiteranmeldung ❤️</h2>
+        	<p>Hier kannst du dich für das Teencamp XXL 2017 anmelden. Cool, dass du mit uns ein großartiges Camp für die Teilnehmer gestalten willst. 🎪 🎶✝️ </p>
+        </div>
+        <div class="five columns">
+        	<a href="https://jugendkirche-soest.de/"><img class="u-max-full-width" src="images/logo.png"></a>
+		</div>
+    </div>
+  <form action="welcome.php" method="post">
+  <div class="row">
+  	<div class="six columns">
+      <label for="vorname">Vorname</label>
+      <input class="u-full-width" type="text" placeholder="Max" name="vorname">
+
+      <label for="nachname">Nachname</label>
+      <input class="u-full-width" type="text" placeholder="Mustermann" name="nachname">
+
+      <label for="rufname">Rufname</label>
+      <input class="u-full-width" type="text" placeholder="Maxi" name="rufname">
+
+      <label for="strasse">Straße + Nr.</label>
+      <input class="u-full-width" type="text" placeholder="Musterstraße 15a" name="strasse">
+ 
+      <label for="ort">Ort</label>
+      <input class="u-full-width" type="text" placeholder="Musterstadt" name="ort">
+
+      <label for="plz">PLZ</label>
+      <input class="u-full-width" type="text" placeholder="12345" name="plz">
+
+
+    </div>
+    <div class="six columns">
+
+
+      <label for="email">Email</label>
+      <input class="u-full-width" type="email" placeholder="test@mailbox.com" name="email">
+
+	  <label for="phone">Handynummer</label>
+      <input class="u-full-width" type="tel" placeholder="017612345678" name="phone">
+
+      <label for="geschlecht">Geschlecht</label>
+      <select class="u-full-width" name="geschlecht">
+        <option value="weiblich	">weiblich</option>
+        <option value="maennlich">m&auml;nnlich</option>
+      </select>
+      <label for="geburtstag">Geburtsdatum</label>
+      <input class="u-full-width" type="text" placeholder="12.03.1995" name="geburtstag">
+
+      <label for="juleika">Jugendleiterschulung</label>
+      <select class="u-full-width" name="juleika">
+        <option value="schulung+karte">Schulung und Karte</option>
+        <option value="keineSchulung">keine Schulung</option>
+      </select>
+
+      <label for="gemeinde">Gemeinde</label>
+      <select class="u-full-width" name="gemeinde">
+        <option value="jukisoest">Jugendkirche Soest</option>
+        <option value="wiese">Wiese</option>
+      </select>
+  </div>
+  <label for="infos">Infos</label>
+  <textarea class="u-full-width" placeholder="Vegetarier, Veganer, Frutarier, Angst vor Ufos, ..." name="infos"></textarea>
+  <label class="kopieanmich">
+    <input type="checkbox" name="kopieanmich">
+    <span class="label-body">Kopie an mich</span>
+  </label>
+    <label class="whatsapp">
+    <input type="checkbox" name="whatsapp">
+    <span class="label-body">Ich will in die WhatsApp Gruppe. ☎️ </span>
+  </label>
+  <input class="button-send" type="submit" value="Anmelden">
+</form>
+      </div>
+    </div>
+
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+</html>
