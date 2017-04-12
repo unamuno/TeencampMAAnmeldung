@@ -69,7 +69,7 @@ if (is_writable($csv_file)) {
     exit;
   }
 }
-$csv_item = "\"$vorname\",\"$nachname\",\"$rufname\",\"$strasse\",\"$ort\",\"$plz\",\"$email\",\"$phone\",\"geschlecht\",\"$geburtstag\",\"$juleika\",\"$gemeinde\",\"$kopieanmich\",\"$whatsapp\"\n";
+$csv_item = "\"$vorname\";\"$nachname\";\"$rufname\";\"$strasse\";\"$ort\";\"$plz\";\"$email\";\"$phone\";\"geschlecht\";\"$geburtstag\";\"$juleika\";\"$gemeinde\";\"$kopieanmich\";\"$whatsapp\"\n";
 if (is_writable($csv_file)) {
   if (fwrite($csv_handle, $csv_item) === FALSE) {
     //for testing
